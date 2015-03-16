@@ -9,7 +9,6 @@ var app = require('./server')({
     'keepRequestPath': keepRequestPath
 });
 
+app.listen(port);
 
-app.listen(port, '127.0.0.1');
-
-console.log('Server running at http://127.0.0.1:' + port);
+console.log('Server running on port ' + port);
