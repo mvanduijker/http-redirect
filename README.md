@@ -1,5 +1,8 @@
 # http-redirect
 
+[![Build Status](https://travis-ci.org/mvanduijker/http-redirect.svg)](https://travis-ci.org/mvanduijker/http-redirect)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 http-redirect is a small, easily installable on heroku, nodejs redirect webapp. 
 Lots of hosting companies offer a redirect service (which cost a little bit of money most of the time).
 Now for free if you spin a free dyno on heroku.
