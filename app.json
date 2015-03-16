@@ -1,0 +1,7 @@
+{
+    "name": "HTTP redirect",
+    "description": "A simple node app that redirects",
+    "repository": "https://github.com/mvanduijker/http-redirect",
+    "logo": "http://node-js-sample.herokuapp.com/node.svg",
+    "keywords": ["node", "static"]
+}

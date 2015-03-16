@@ -1,0 +1,19 @@
+{
+  "name": "http-redirect",
+  "version": "0.0.1",
+  "description": "Simple redirect service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node_modules/mocha/bin/mocha"
+  },
+  "author": "Mark van Duijker <mark@duyker.nl>",
+  "license": "MIT",
+  "engines": {
+    "node": "0.12.x"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.1",
+    "request": "^2.53.0"
+  }
+}
