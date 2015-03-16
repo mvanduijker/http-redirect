@@ -4,8 +4,8 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 http-redirect is a small, easily installable on heroku, nodejs redirect webapp. 
-Lots of hosting companies offer a redirect service (which cost a little bit of money most of the time).
-Now for free if you spin a free dyno on heroku.
+Lots of hosting companies offer a redirect service (which most of the time cost a little bit of money ).
+Now for free if you spin up a free dyno on heroku with this little app.
 
 ## Installation
 
@@ -35,6 +35,8 @@ when turned on and `http://example.com` when turned off
 REDIRECT_KEEP_REQUEST_PATH=1
 ```
 
+## Starting that ...
+
 You can run locally with
 ```
 npm start
@@ -44,3 +46,9 @@ Running test suite
 ```
 npm test
 ```
+
+# Shipit on Heroku
+
+Click [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy) after app has been created.
+Add config variable in the settings tab of your application with `REDIRECT_URL` and value where you want the app to
+redirect to. Then configure your custom domains https://devcenter.heroku.com/articles/custom-domains. Off you go! 
