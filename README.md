@@ -49,6 +49,5 @@ npm test
 
 # Shipit on Heroku
 
-Click [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy) after app has been created.
-Add config variable in the settings tab of your application with `REDIRECT_URL` and value where you want the app to
+Click [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy) to create heroku app. After app has been created, add config variable in the settings tab of your application with `REDIRECT_URL` and value where you want the app to
 redirect to. Then configure your custom domains https://devcenter.heroku.com/articles/custom-domains. Off you go! 
