@@ -1,10 +1,10 @@
 # http-redirect
 
 [![Build Status](https://travis-ci.org/mvanduijker/http-redirect.svg)](https://travis-ci.org/mvanduijker/http-redirect)
+[![Coverage Status](https://coveralls.io/repos/mvanduijker/http-redirect/badge.svg?branch=master)](https://coveralls.io/r/mvanduijker/http-redirect?branch=master)
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-http-redirect is a small, easily installable on heroku, nodejs redirect webapp. 
-Lots of hosting companies offer a redirect service (which most of the time cost a little bit of money ).
+Lots of hosting companies offer a redirect service, which most of the time cost a little bit of money.
 Now for free if you spin up a free dyno on heroku with this little app.
 
 ## Installation
@@ -45,6 +45,11 @@ npm start
 Running test suite
 ```
 npm test
+```
+
+Create coverage report
+```
+npm run-script coverage
 ```
 
 # Shipit on Heroku
